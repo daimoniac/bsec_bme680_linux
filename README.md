@@ -27,7 +27,7 @@ Optionally make changes to make.config.
 
 Depending on how your sensor is embedded it might be surrounded by other
 components giving off heat. Use an offset in °C in `bsec_bme680.c` to
-compensate. The default is 5 °C:
+compensate. The default is 0 °C:
 ```
 #define temp_offset (5.0f)
 ```
